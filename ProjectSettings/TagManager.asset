@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - fist
+  - enemy
   layers:
   - Default
   - TransparentFX
