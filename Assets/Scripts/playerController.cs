@@ -41,13 +41,7 @@ public class playerController : MonoBehaviour {
 		float moveVertical = Input.GetAxis ("Vertical");
 
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-		rigidbody.velocity = movement * speed;
-
-		rigidbody.position = new Vector3 (
-			Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax),
-			0.0f,
-			Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
-		);
+		rigidbody.velocity = (movement * speed);
 
 		RaycastHit hit;
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
@@ -63,9 +57,11 @@ public class playerController : MonoBehaviour {
 		//yes, I mixed up the files when I made them.
 		if (identifier.Equals ("left")) {
 			leftRB.AddForce (new Vector3 (transform.forward.x, 0.0f, transform.forward.z) * transform.localScale.x * 5000);
+			rigidbody.AddForce (new Vector3 (-transform.forward.x, 0.0f, -transform.forward.z) * transform.localScale.x * 5000);
 
 		} else if (identifier.Equals ("right")) {
 			rightRB.AddForce (new Vector3 (transform.forward.x, 0.0f, transform.forward.z) *transform.localScale.x* 5000);
+			rigidbody.AddForce (new Vector3 (-transform.forward.x, 0.0f, -transform.forward.z) * transform.localScale.x * 5000);
 		} else if (identifier.Equals ("left_hook")) {
 			anim.Play ("punch_r_hook", 1, 0f);
 		} else if (identifier.Equals ("right_hook")) {
