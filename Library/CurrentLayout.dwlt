@@ -202,8 +202,8 @@ MonoBehaviour:
     y: 0
     width: 611
     height: 551
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -229,8 +229,8 @@ MonoBehaviour:
     y: 0
     width: 630
     height: 551
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -281,8 +281,8 @@ MonoBehaviour:
     y: 0
     width: 394
     height: 958
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -392,9 +392,9 @@ MonoBehaviour:
     height: 530
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d6280000
-    m_LastClickedID: 10454
-    m_ExpandedIDs: 1afcffff00000000
+    m_SelectedIDs: 5c2b0000
+    m_LastClickedID: 11100
+    m_ExpandedIDs: ae9dfdff88fbffff000000005c2b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,14 +444,14 @@ MonoBehaviour:
     width: 607
     height: 530
   m_SceneLighting: 1
-  lastFramingTime: 7986.30807447679
+  lastFramingTime: 465.8986676221095
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 256.97336, y: -1.3354522, z: 295.1619}
+    m_Target: {x: 260.76, y: -0.2, z: 295.37}
     speed: 2
-    m_Value: {x: 256.97336, y: -1.3354522, z: 295.1619}
+    m_Value: {x: 260.76, y: -0.2, z: 295.37}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -474,13 +474,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.18901128, y: 0.44474396, z: -0.09661466, w: 0.8701495}
+    m_Target: {x: 0.31402594, y: 0.07253399, z: -0.024076948, w: 0.9463439}
     speed: 2
-    m_Value: {x: 0.18900968, y: 0.4447402, z: -0.09661384, w: 0.8701421}
+    m_Value: {x: 0.31402284, y: 0.07253327, z: -0.02407671, w: 0.94633454}
   m_Size:
-    m_Target: 9.53014
+    m_Target: 3.7183506
     speed: 2
-    m_Value: 9.53014
+    m_Value: 3.7183506
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -605,19 +605,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\stc163user\Desktop\FighterArena
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b4260000
-    m_LastClickedID: 9908
-    m_ExpandedIDs: 000000002a260000a42600009a270000e027000000ca9a3bffffff7f
+    m_SelectedIDs: 86280000
+    m_LastClickedID: 10374
+    m_ExpandedIDs: 0000000068280000e2280000d62900001c2a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,7 +645,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a2600009a270000
+    m_ExpandedIDs: 0000000068280000e2280000d62900001c2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -11,7 +11,6 @@ public class fistController : MonoBehaviour {
 	public GameObject rightAnchor;
 
 	void OnCollisionEnter(Collision col) {
-		Debug.Log ("hit enemy");
 		if (col.gameObject.CompareTag ("enemy")) {
 			Vector3 tempEnemy = col.gameObject.transform.localScale;
 			col.gameObject.transform.localScale = new Vector3 (tempEnemy.x - 0.1f, tempEnemy.y - 0.1f, tempEnemy.z - 0.1f);
